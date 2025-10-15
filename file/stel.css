@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+#hero {
+    background-color: red;
+    padding: 20px;
+    border-bottom: 10px;
+}
+
+h1{
+    font-size: 2.3em;
+    color: yellow;
+}
+
+p {
+    font-size: 1.1em;
+    color: rgb(83, 0, 0);
+}
+
+.card {
+    width: 300px;
+    line-clamp: 0;
+    min-height: 170px;
+    max-height: 290px;
+    overflow: auto;
+    border: 1px solid #bb0000;
+    padding: 10px;
+    margin: 10px;
+    border: #bb0000 1px solid;
+}
+
+.card p{
+    margin-bottom: 20px;
+}
+
+img{
+    max-width: 70%;
+    height: auto;
+}
+
+.grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap:inherit;
+}
+
+.btn {
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+a[href^="https"] {
+    color: black;
+    text-decoration: none;
+}
+
+.card[data-level="advanced"] {
+    color: red;
+}
+.card[data-level="beginner"] {
+    color: rgb(20, 198, 20)
+}
+.card[data-level="intermediate"] {
+    color: yellow
+}

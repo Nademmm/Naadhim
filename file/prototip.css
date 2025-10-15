@@ -1,0 +1,132 @@
+body{
+    font-family: poppins;
+    margin: 0;
+}
+
+header{
+    background-color: aquamarine;
+    display: flex;
+    justify-content:space-evenly;
+    gap: 40vw;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.hero {
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+}
+
+.awok{
+    padding:7vw 10vw;
+    width: 50vw;
+}
+
+.hero img{
+    height: 20vw;
+    width: 30vw;
+    padding: 50px;
+}
+
+.button{
+    background-color: rgb(201, 22, 22);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+p{
+    margin-bottom: 30px;
+}
+
+.produk{
+    padding: 30px 30px;
+    background-color: grey;
+}
+
+.titleproduk{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.gridproduk{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    justify-items: center;
+}
+
+.produk-item{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 250px;
+    margin-bottom: 70px;
+    padding: 20px 40px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  align-items: center;
+  background: #470d0d;
+  padding: 70px;
+}
+
+/* Gambar */
+.contact-img img {
+  width: 300px;
+  object-fit: cover;
+}
+
+/* Info kontak */
+.contact-info h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #333;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #a5a79b;
+}
+
+.contact-info li {
+    display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #555;
+}
+
+.contact-info li i {
+  font-size: 22px;
+  margin-right: 12px;
+  color: #c2db00; /* warna default icon */
+}
+
+footer{
+    align-items: center;
+    background-color: blueviolet;
+    padding: 20px;
+}

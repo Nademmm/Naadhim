@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulator</title>
+</head>
+<body>
+    <h1 style="font-family: Arial, Helvetica, sans-serif;">Haluu ini kalkulatur</h1>
+    <input type="number" name="kalkulator" id="angka1" placeholder="Masukkan angka pertama">
+    <select name="kalkulator" id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+        <option value="**">**</option>
+    </select>
+    <input type="number" name="kalkulator" id="angka2" placeholder="Masukkan angka kedua">
+    <button id="tombol">hitung</button>
+    <script>
+        document.getElementById("tombol").addEventListener("click", function() {
+            var angka1 = parseFloat(document.getElementById("angka1").value);
+            var operator = document.getElementById("operator").value;
+            var angka2 = parseFloat(document.getElementById("angka2").value);
+            var hasil;
+
+            switch (operator) {
+                case "+":
+                    hasil = angka1 + angka2;
+                    break;
+                case "-":
+                    hasil = angka1 - angka2;
+                    break;
+                case "*":
+                    hasil = angka1 * angka2;
+                    break;
+                case "/":
+                    hasil = angka1 / angka2;
+                    break;
+                case "%":
+                    hasil = angka1 % angka2;
+                    break;
+                case "**":
+                    hasil = angka1 ** angka2;
+                    break;
+                default:
+                    hasil = "Operasi tidak valid";
+            }
+            alert(hasil);
+        });
+    </script>
+</body>
+</html>

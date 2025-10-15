@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+header img{
+    width: 70px;
+    height: 50px;
+}
+ 
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    
+}
+
+nav a{
+    color: black;
+}
+
+ul{
+    
+    list-style: none;
+}   
+
+a {
+    text-decoration: none;
+}
+
+.akun{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.akun img{
+    height: 20px;
+    width: 20px;
+}
+
+.nomer{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.hero{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-title{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    width: 500px;
+    gap: 20px;
+}
+
+.hero-title h3{
+    font-size: 40px;
+}
+
+.hero img{
+    width: 470px;
+    height:400px;
+    margin-top: 40px;
+    margin-right: 0px;
+}
+
+.hero-button{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-button2{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.hero-button3{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.cloud-utama{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    margin-left: 60px;
+}
+
+.cloud-title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+}
+
+.cloud-title h2{
+    font-size: 40px;
+}
+
+.cloud-logo{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    padding: 30px;
+    gap: 20px;
+}
+
+.cloud-logo img{
+    width: 150px;
+}
+
+.cloud-unggul{
+    display: flex;
+    padding: 30px 100px;
+    gap: 30px;
+}
+
+.cloud-unggul img{
+    width: 70px;
+}
+
+.item-cloud{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.item-cloud h3{
+    font-size: 20px;
+}
+
+.item-cloud p{
+    font-size: 15px;
+}
+
+.niger{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.niger-logo img{
+    width: 110px;
+}
+
+.niger-logo{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.niger-title{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left:40px ;
+    padding: 50px;
+    gap: 10px;
+}
+
+.niger-title h2{
+    font-size: 30px;
+}
+
+.niger-title p{
+    width: 300px;
+}
+
+.awesome{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(239, 248, 248);
+    align-items: center;
+    text-align: center;
+    padding: 120px;
+    border-radius: 10px;
+}
+
+.awesome-wa{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.awesome-wa img{
+    width: 27px;
+}
+
+.awesome-wa a {
+    color: white;
+}
+
+.awesome h1{
+    font-size: 50px;
+    width: 800px;
+}
+
+footer{
+    background-color: red;
+}
+
+.logofooter img{
+    width: 100px;
+}
+
+.logofooter p{
+    width: 300px;
+    color: white;
+    margin-top: 10px;
+}
+
+.footer-main{
+    display: flex;
+    padding: 80px 20px;
+    justify-content: space-around;
+}
+
+.footer-menu{
+    display: flex;
+    gap: 100px;
+}
+
+.urutanfooter{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.urutanfooter h3{
+    color: white;
+    margin-top: 10px;
+}
+
+.urutanfooter a{
+    color: white;
+}
+
+.copyright{
+    margin-top: 40px;
+    padding: 30px 70px;
+}
